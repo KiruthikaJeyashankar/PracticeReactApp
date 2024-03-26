@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## HumorHub
+
+Suggest a joke - https://official-joke-api.appspot.com/random_joke 
+
+Upon visiting the app, users are greeted with a random joke fetched from an external API.
+
+## Testing resources
+
+- https://testing-library.com/docs/queries/about/#types-of-querie- s
+- https://jestjs.io/docs/mock-functions
+- https://testing-library.com/docs/queries/about/#types-of-queries
+- https://axios-http.com/docs/example
+- https://www.w3.org/TR/html-aria/#docconformance
+- https://jestjs.io/docs/snapshot-testing 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
