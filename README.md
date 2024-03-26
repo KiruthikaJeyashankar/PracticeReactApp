@@ -16,7 +16,7 @@ Upon visiting the app, users are greeted with a random joke fetched from an exte
 - https://axios-http.com/docs/example
 - https://www.w3.org/TR/html-aria/#docconformance
 - https://jestjs.io/docs/snapshot-testing 
-
+- https://testing-library.com/docs/queries/about/#types-of-queries
 
 ## Available Scripts
 
