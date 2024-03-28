@@ -6,7 +6,35 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Suggest a joke - https://official-joke-api.appspot.com/random_joke 
 
-Upon visiting the app, users are greeted with a random joke fetched from an external API.
+App displays a "Tell joke" button, on clicking this button show a random joke (by making the network call to the website)
+
+**Requirement:** 
+
+We are having a "Tell Joke" button in the app, on click of the button 
+- until the data is fetched show only the loader (Text - Loading...) and not the button
+- Once data is fetched, show the data fetched & Load data button
+
+**_data received from backend_**
+
+```
+{
+    data: {
+        "type":"general",
+        "setup":"What did the traffic light say to the car as it passed?",
+        "punchline":"Don't look I'm changing!",
+        "id":187
+    }
+}
+```
+
+**_Data to be displayed in screen_**
+
+```agsl
+What did the traffic light say to the car as it passed?
+Don't look I'm changing!
+```
+
+Note: We already have the code for loader shown on button click and "Tell Joke" button is hidden while loading. Start with adding code for making n/w call and showing the joke
 
 ## Testing resources
 
